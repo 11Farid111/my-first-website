@@ -1,77 +1,135 @@
-body{
-    font-family: 'Open Sans', sans-serif;font-family: 'Lato', sans-serif;
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px 200px;
 }
-header{
+
+header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.text-title{
-    color:  #181818;
+
+.text-title {
+    color: #181818;
     font-family: Open Sans;
     font-size: 45px;
     font-style: normal;
     font-weight: 800;
 
 }
-nav > ul {
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color:#474747;
+    color: #474747;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
     padding: 18px 35px;
-    color:  #FFF;
+    color: #FFF;
     font-size: 20px;
     font-weight: 700;
 
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
 }
-.banner .profile-pic{
-    width:500px ;
+
+.banner .profile-pic {
+    width: 500px;
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 25px;
     margin: 0;
-    color:#474747 ;
+    color: #474747;
 }
-.banner-description{
+
+.banner-description {
     font-size: 18px;
     color: #757575;
 }
-.banner-title{
+
+.banner-title {
     font-size: 50px;
     font-weight: 700;
     color: #181818;
     margin-top: 5px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 
+}
+
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF;
+    margin: 80px 0px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+.info-title{
+    color:  #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
 }
